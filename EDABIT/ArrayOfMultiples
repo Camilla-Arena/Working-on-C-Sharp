@@ -1,0 +1,9 @@
+public static int[] ArrayOfMultiples(int num, int length) {
+		int[] numbers = new int[length];
+		
+		for(int i = 0; i < length; i++){
+			numbers[i] = num * (i + 1);			
+		}
+
+		return numbers;
+}
