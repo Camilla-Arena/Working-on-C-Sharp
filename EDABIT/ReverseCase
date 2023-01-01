@@ -1,0 +1,22 @@
+using System;
+using System.Text;
+
+public class Program 
+{
+    public static string ReverseCase(string str) 
+    {
+			 StringBuilder strg = new StringBuilder();
+        
+        foreach(char c in str){
+            if(Char.IsUpper(c)){               
+              char l = Char.ToLower(c);
+               strg.Append(l);               
+            }
+            else{
+              char u = Char.ToUpper(c);
+              strg.Append(u);
+            }            
+        }
+			return strg.ToString();
+    }
+}
