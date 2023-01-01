@@ -1,0 +1,26 @@
+using System;
+using System.Text.RegularExpressions;
+					
+public class Program
+{
+	
+	public static string Bomb(string txt)
+	{
+		//Regex regex = new Regex(@"bomb");
+		Match match = Regex.Match(txt,@"bomb",RegexOptions.IgnoreCase);
+		if(match.Success){
+			Console.WriteLine("Duck!!!");
+		}
+		else{
+			Console.WriteLine("There is no bomb, relax.");
+		}
+		return "";
+	}
+	
+	
+	public static void Main()
+	{
+		Bomb("Hey, did you find the BoMb?"); 
+	}
+
+}
