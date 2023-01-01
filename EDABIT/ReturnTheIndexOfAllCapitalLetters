@@ -1,0 +1,17 @@
+using System;
+using System.Linq;
+using System.Collections.Generic;
+public class Program 
+{
+    public static int[] IndexOfCapitals(string str) 
+    {
+			List<int> values = new List<int>();
+			foreach( char c in str){
+				if(Char.IsUpper(c)){
+					values.Add(str.IndexOf(c));
+				}
+			}
+			int[] indexes = values.ToArray();
+			return indexes;
+    }
+}
