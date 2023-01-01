@@ -1,0 +1,8 @@
+public class Program
+{
+    public static bool Reverse(bool boolean)
+    {
+			bool result = boolean ? false : true;
+			return result;
+    }
+}
