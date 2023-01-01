@@ -1,7 +1,8 @@
 # Working on C#
 Repository  dove viene trattato il linguaggio C#
 
-## CodeWars
+![Codewars](https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=grey)
+
 | KYU 8                    | KYU 7 | KYU 6  | KYU 5 | KYU 4  | KYU 3 | KYU 2  | KYU 1 |
 |--------------------------|-------|--------|-------|--------|-------|--------|-------|
 |Beginner - Reduce but Grow|
