@@ -1,5 +1,15 @@
 # Working on C#
-Repository  dove viene trattato il linguaggio C#
+
+The repo's purpose is to improve the writing of code by solving coding challenges that 
+I will find in some different training coding sites such as CodeWars, Edabit ect.. 
+
+The language used is ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=white)
+
+## Table of Contents
+* [Codewars](#codewars)
+* [Edabit](#edabit)
+
+
 
 ![Codewars](https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=codewars&logoColor=grey)
 
@@ -7,7 +17,7 @@ Repository  dove viene trattato il linguaggio C#
 |--------------------------|-------|--------|-------|--------|-------|--------|-------|
 |Beginner - Reduce but Grow|
 
-## Edabit
+### Edabit
 | NAME          | LEVEL         |
 | ------------- | ------------- |
 | Area of Triangle  | Medium |
